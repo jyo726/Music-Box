@@ -1,0 +1,40 @@
+/*
+TODO(you): Write any additional styles you need here.
+*/
+#button {
+	background-image: url(images/play.png);
+	background-size: cover;
+	height: 60px;
+	width: 60px;
+	margin: unset;
+}
+#playBar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	bottom: 0px;
+}
+#music {
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;	
+}
+#area {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	margin: unset;
+}
+#area image{	
+	height: 100%;
+	position: absolute;
+	top: 0px;	
+}
